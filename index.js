@@ -10,7 +10,7 @@ app.set('view engine' , 'ejs')
 
 
 app.get('/', (req, res) => {
-  fs.readFile('./views/index/index.ejs' ,(err,data)=> {
+  fs.readFile('./public/views/index/index.ejs' ,(err,data)=> {
     if(err){
       throw err
     }
