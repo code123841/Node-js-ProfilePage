@@ -5,9 +5,6 @@ const port = 5000;
 const fs = require('fs')
 // setting up static files 
 app.use(express.static('public'))
-app.use('/css', express.static(__dirname + 'public/css'))
-app.use('/fonts' , express.static(__dirname + 'public/fonts'))
-app.use('/img' , express.static(__dirname + 'public/img'))
 
 app.set('view engine' , 'ejs')
 
