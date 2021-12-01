@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=PT+Sans+Narrow&display=swap');
+body{
+    background-image: url(/img/backdrop2.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+
+@media screen and (max-width: 320px) { 
+
+}
+    /*Write your css here*/
+    .text-white{
+        color:#fff;
+    }
+    .text-red{
+        color: red;
+    }
+    
+    .givenName{
+        font-family: 'Comforter Brush', cursive;
+    }
+    
+    .subHeading{
+        font-weight: 700;
+        padding-top: 2%;
+    }
+    
+    .Intro{
+        padding-top: 10%;
+    }    
+
+    .About-me{
+        color:white;
+        padding-top: 2%;
+        font-size:2rem;
+
+    
+
+        
+    }
+
+.Programmer{
+    width: 100;
+    height: 100;
+
+}
+
+
+/* Group 1 */
