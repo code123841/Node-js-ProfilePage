@@ -10,9 +10,14 @@ app.set('view engine' , 'ejs')
 
 
 app.get('/', (req, res) => {
-    // console.log("user has entered the home page")
-    res.render('index/index.ejs')
-  });
+  fs.readFile('./views/index/index.ejs' ,(err,data)=> {
+    if(err){
+      throw err
+    }
+    res.write(data)
+  })
+ 
+});
 
 // Listen on port 5000
 app.listen(port, () => {
