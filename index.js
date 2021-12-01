@@ -14,7 +14,7 @@ app.set('view engine' , 'ejs')
 
 app.get('/', (req, res) => {
     // console.log("user has entered the home page")
-    res.render('index/index')
+    res.render('index/index.ejs')
   });
 
 // Listen on port 5000
